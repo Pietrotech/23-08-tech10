@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+.robo_compras {
+    position: relative;
+    width: 498px;
+    height: 607px;
+    margin-left: 25%;
+    margin-top: 5em;
+    box-shadow: 0px 0px 60px black;
+}
+
+.robo_compras:hover {
+    opacity: 80%;
+}
+
+#textCompras{
+    position: relative;
+    background-color: white;
+    width: 330px;
+    height: 400px;
+    margin-left: 35em;
+    margin-top: -33em;
+    opacity: 70%;
+}
+
+#textCompras:hover {
+    opacity: 50%;
+}
+
+.text_roboDasCompras {
+    position: absolute;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 1.8em;
+    margin-top: 4.4em;
+    margin-left: 23px;
+}
+
+.processadores2 {
+    position: absolute;
+    margin-left: 56.4%;
+    margin-top: -30.2em;
+    box-shadow: 0px 0px 60px black;
+}
+
+.processadores2:hover {
+    opacity: 80%;
+}
+
+#textProcessadores {
+    position: absolute;
+    background-color: white;
+    opacity: 70%;
+    width: 250px;
+    height: 150px;
+    margin-left: 59%;
+    margin-top: -26em;
+}
+
+#textProcessadores:hover {
+    opacity: 50%;
+}
+
+.text_processadores {
+    position: absolute;
+    color: black;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 23px;
+    margin-top: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.novidades {
+    position: absolute;
+    margin-left: 56.4%;
+    margin-top: -9.5em;
+    box-shadow: 0px 0px 60px black;
+}
+
+.novidades:hover {
+    opacity: 80%;
+}
+
+.text_novidades1 {
+    position: absolute;
+    background-color: white;
+    margin-left: 59%;
+    margin-top: -5.5em;
+    width: 250px;
+    height: 150px;
+    opacity: 70%;
+}
+
+.text_novidades1:hover {
+    opacity: 50%;
+}
+
+.text_novidades2 {
+    position: absolute;
+    color: black;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 23px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

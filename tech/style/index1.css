@@ -1,0 +1,756 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #262629;
+}
+
+.linha_invi {
+    position: relative;
+    margin-left: 1em;
+    border: 1px black;
+}
+
+header {
+    position: relative;
+    background-color: #000000;
+    height: 120px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.2em;
+    border-radius: 25px;
+}
+
+.logo_principal {
+    position: relative;
+    margin-top: 1em;
+}
+
+
+
+
+.hidden {
+   display: none;
+}
+
+.icon-container1 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.palavra_inicio {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 12.7em;
+    font-size: xx-large;
+    margin-top: -3em;
+}
+
+.bola_inicio {
+    position: absolute;
+    margin-left: 20.2em;
+    margin-top: -7em;
+    background-color: #B08F52;
+    padding: 20px;
+    border-radius: 90%
+}
+
+.bola_inicio:hover {
+    opacity: 40%;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+
+/* compras----------------------------- */
+
+
+.hidden2 {
+    display: none;
+ }
+ 
+ .icon-container2 {
+     display: inline-flex;
+     align-items: center;
+     cursor: pointer;
+ }
+ 
+ .palavra_compras {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-left: 20.2em;
+    font-size: xx-large;
+    margin-top: -3em;
+ }
+ 
+ .bola_compras {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -6.9em;
+    background-color: #B08F52;
+    padding: 19px;
+    border-radius: 90%;
+ }
+
+ .bola_compras:hover {
+    opacity: 40%;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+ /* novidaddes--------------------- */
+
+ 
+.hidden3 {
+    display: none;
+ }
+ 
+ .icon-container3 {
+     display: inline-flex;
+     align-items: center;
+     cursor: pointer;
+ }
+ 
+ .palavra_novidades {
+    position: absolute;
+    margin-left: 27.6em;
+    margin-top: -2.9em;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+ }
+ 
+ .bola_novidades {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -6.8em;
+    background-color: #B08F52;
+    padding: 15px;
+    border-radius: 90%;
+ }
+
+ .bola_novidades:hover {
+    opacity: 40%;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+/* contato-------------------- */
+
+
+.hidden4 {
+    display: none;
+ }
+ 
+ .icon-container4 {
+     display: inline-flex;
+     align-items: center;
+     cursor: pointer;
+ }
+ 
+ .palavra_contato {
+    position: absolute;
+    margin-left: 35.1em;
+    margin-top: -2.9em;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+ }
+ 
+ .bola_contato {
+    position: absolute;
+    margin-left: 56%;
+    margin-top: -6.8em;
+    background-color: #B08F52;
+    padding: 15px;
+    border-radius: 90%;
+ }
+
+ .bola_contato:hover {
+    opacity: 40%;
+    transition: 0.5s;
+    box-shadow: none;
+}
+
+
+/* top 10------------------- */
+
+
+
+
+/* modal-tabelinha---------------------------- */
+
+.linha_5 {
+    position: relative;
+    margin-top: 12.6em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.titulo_1 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 36%;
+    margin-bottom: 1em;
+}
+
+.video_1 {
+    position: relative;
+    margin-left: 2.5%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.video_2 {
+    position: relative;
+    margin-left: 4%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.video_3 {
+    position: relative;
+    margin-left: 4%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.video_4 {
+    position: relative;
+    margin-left: 4%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.video_5 {
+    position: relative;
+    margin-left: 4%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.linha_6 {
+    position: relative;
+    margin-top: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.titulo_2 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 43%;
+    margin-bottom: 1em;
+}
+
+.tabela_cinza {
+    position: relative;
+    background-color: #363639;
+    margin-left: 18%;
+    margin-bottom: 3em;
+    width: 1200px;
+    height: 590px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    border-radius: 40px; 
+    box-shadow: 0px 0px 20px black;
+}
+
+.texto_1 {
+    position: relative;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+.linha_7 {
+    position: relative;
+    margin-top: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.hal_da_fama {
+    position: relative;
+    background-color: #363639;
+    width: 100%;
+}
+
+.titulo_3 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 35%;
+    margin-bottom: 1em;
+}
+
+.iphone14 {
+    position: relative;
+    margin-left: 14%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.galaxy-s23 {
+    position: relative;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.motorola-40 {
+    position: relative;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.xiaomi-13 {
+    position: relative;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.houwei-p60 {
+    position: relative;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.text-iphone14 {
+    position: relative;
+    background-color: #D9D9D9;
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    margin-left: 14.2%;
+    margin-top: 4px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#textIphone14 {
+    position: absolute;
+    margin-top: 9px;
+}
+
+.text-galaxy-s23 {
+    position: relative;
+    background-color: #D9D9D9;
+    margin-left: 30%;
+    margin-top: -3em;
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#textGalaxyS23 {
+    position: absolute;
+    margin-top: 9px;
+}
+
+.text-motorola-40 {
+    position: relative;
+    background-color: #D9D9D9;
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 45.6%;
+    margin-top: -3em;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#textMotorola40 {
+    position: absolute;
+    margin-top: 9px;
+}
+
+
+.text-xiaomi-13 {
+    position: relative;
+    background-color: #D9D9D9;
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 61.4%;
+    margin-top: -2.9em;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#textXiaomi13 {
+    position: absolute;
+    margin-top: 9px;
+}
+
+.text-huawei-p60 {
+    position: relative;
+    background-color: #D9D9D9;
+    font-size: x-large;
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 77%;
+    margin-top: -2.8em;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+#textHouweiP60 {
+    position: absolute;
+    margin-top: 9px;
+}
+
+
+
+
+.linha_8 {
+    position: relative;
+    margin-top: 6em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.titulo_4 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 37%;
+    margin-bottom: 1em;
+}
+
+.apple {
+    position: relative;
+    margin-left: 8.4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.xiaomi {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+#samsumg {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.huawei {
+    position: relative;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.text-iphone {
+    position: relative;
+    background-color: white;
+    font-size: xx-large;
+    width: 90px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 11.4%;
+    margin-top: 10px;
+}
+
+.text-xiaomi {
+    position: relative;
+    background-color: white;
+    font-size: xx-large;
+    width: 105px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 34.4%;
+    margin-top: -1.8em;
+}
+
+.text-samsumg {
+    position: relative;
+    background-color: white;
+    font-size: xx-large;
+    width: 135px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 57%;
+    margin-top: -1.8em;
+}
+
+.text-huawei {
+    position: relative;
+    background-color: white;
+    font-size: xx-large;
+    width: 110px;
+    padding: 10px 30px 10px;
+    border-radius: 20px;
+    margin-left: 80.4%;
+    margin-top: -1.8em;
+}
+
+#textHuawei {
+    position: relative;
+}
+
+.linha_9 {
+    position: relative;
+    margin-top: 4.6em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.titulo_5 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 39.5%;
+    margin-bottom: 1em;
+}
+
+.tabela_cinza_2 {
+    position: relative;
+    background-color: #363639;
+    height: 290px;
+}
+
+.sub_titulo_1 {
+    position: relative;
+    color: white;
+    font-size: larger;
+    margin-left: 36%;
+    margin-top: -1.5em;
+}
+
+#inputEmail {
+    position: relative;
+    padding: 14px 3em;
+    font-size: large;
+    margin-top: 2em;
+    margin-left: 38.3%;
+    border-radius: 13px;
+}
+
+.botao_enviar_2 {
+    position: relative;
+    background-color: #5BC172;
+    border: none;
+    font-size: large;
+    padding: 14px 20px;
+    border-radius: 13px;
+    margin-left: 1em;
+}
+
+.linha_10 {
+    position: relative;
+    margin-top: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.titulo_6 {
+    position: relative;
+    font-family: 'Holtwood One SC', serif;
+    color: #C7A172;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-left: 38.7%;
+    margin-bottom: 1em;
+}
+
+.tesla_model_x {
+    position: relative;
+    margin-left: 31.2%;
+}
+
+.linha_11 {
+    position: relative;
+    margin-top: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
+    border: 1px solid #976C36;
+}
+
+.quadrado_cinza_1 {
+    position: relative;
+    background-color: #363639;
+    height: 120px;
+    margin-top: 27.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 66px;
+}
+
+.logo_principal_2 {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.twiter {
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 2.5em;
+}
+
+.instagram {
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 2.5em;
+}
+
+.tiktok {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 2.5em;
+}
+
+.facebook {
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 2.5em;
+}
+
+.segundo_quadrado_cinza {
+    position: relative;
+    background-color: #363639;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    height: 340px;
+    border-radius: 66px;
+}
+
+.titulo_footer {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 10%;
+    font-size: 3em;
+    color: #C7A172;
+}
+
+.titulo_footer_2 {
+    position: relative;
+    margin-left: 68%;
+    font-size: 3em;
+    margin-top: -1em;
+    color: #C7A172;
+}
+
+.linha_invi_2 {
+    position: relative;
+    margin-left: 1em;
+    border: 1px black;
+}
+
+.linha_12 {
+    position: relative;
+    margin-left: 4em;
+    margin-right: 4em;
+    border: 1px solid #976C36;
+}
+
+
+
+.footer_contato {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 1em;
+}
+
+.footer_novidades{
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.footer_compras {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    margin-left: 10%;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.footer_login {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: -0.7em;
+}
+
+.footer_top10 {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 23%;
+    margin-top: 0.29em;
+}
+
+
+
+.footer_imagine {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -1.8em;
+}
+
+.footer_osean {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -1em;
+}
+
+.footer_lexica {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 68.5%;
+    margin-top: -0.2em;
+}
+
+.footer_opanai {
+    position: absolute;
+    color: #5C5959;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 81%;
+    margin-top: -3.38em;
+}
